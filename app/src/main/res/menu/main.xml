@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_home_style" android:title="@string/home"/>
+    <item android:icon="@drawable/ic_library_style" android:title="@string/library"/>
+</menu>
