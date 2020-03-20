@@ -3,4 +3,6 @@
     <attr name="colorPrimary" format="color|reference"/>
     <attr name="colorAccent" format="color|reference"/>
     <attr name="primaryThemeColor" format="color|reference"/>
+    <attr name="colorInactive" format="color|reference"/>
+    <attr name="defaultImageBackground" format="color|reference"/>
 </resources>

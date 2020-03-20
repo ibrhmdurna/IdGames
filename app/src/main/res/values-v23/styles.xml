@@ -7,6 +7,8 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="primaryThemeColor">@color/colorPrimaryDark</item>
         <item name="android:windowLightStatusBar">true</item>
+        <item name="colorInactive">@color/colorInactiveLight</item>
+        <item name="defaultImageBackground">@color/defaultColorLight</item>
     </style>
 
     <style name="DarkTheme" parent="Theme.AppCompat.NoActionBar">
@@ -15,5 +17,7 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="primaryThemeColor">@color/colorPrimaryLight</item>
         <item name="android:windowLightStatusBar">false</item>
+        <item name="colorInactive">@color/colorInactiveDark</item>
+        <item name="defaultImageBackground">@color/defaultColorDark</item>
     </style>
 </resources>

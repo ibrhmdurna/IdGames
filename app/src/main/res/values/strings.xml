@@ -2,4 +2,16 @@
     <string name="app_name">IdGames</string>
     <string name="home">Home</string>
     <string name="library">Library</string>
+    <string name="my_games">My Games</string>
+    <string name="shopping">Shopping</string>
+    <string name="search">Search</string>
+    <string name="categories">Categories</string>
+    <string name="recommended_for_you">Recommended for you</string>
+    <string name="games_you_might_like">Games you might like</string>
+    <string name="new_games">New Games</string>
+    <string name="games_on_sale">Games on sale</string>
+    <string name="search_store">Search the store?</string>
+    <string name="best_sellers">Best Sellers</string>
+    <string name="recent_updates">Recent Updates</string>
+    <string name="new_releases">New Releases</string>
 </resources>

@@ -4,6 +4,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryLight</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="primaryThemeColor">@color/colorPrimaryDark</item>
+        <item name="colorInactive">@color/colorInactiveLight</item>
+        <item name="defaultImageBackground">@color/defaultColorLight</item>
     </style>
 
     <style name="DarkTheme" parent="Theme.AppCompat.NoActionBar">
@@ -11,5 +13,17 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="primaryThemeColor">@color/colorPrimaryLight</item>
+        <item name="colorInactive">@color/colorInactiveDark</item>
+        <item name="defaultImageBackground">@color/defaultColorDark</item>
+    </style>
+
+    <style name="BottomItemActiveTextAppearance" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/primaryThemeColor</item>
+    </style>
+
+    <style name="BottomItemInactiveTextAppearance" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?attr/colorInactive</item>
     </style>
 </resources>

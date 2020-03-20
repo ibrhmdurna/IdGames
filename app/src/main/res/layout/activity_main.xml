@@ -5,35 +5,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="?attr/colorPrimary">
 
-    <androidx.appcompat.widget.Toolbar
+    <FrameLayout
+        android:id="@+id/mainFrame"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:background="?attr/colorPrimary">
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="30dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/home"
-                android:textSize="25sp"
-                android:textColor="?attr/primaryThemeColor"
-                android:textStyle="bold"
-                android:layout_centerVertical="true"/>
-        </RelativeLayout>
-    </androidx.appcompat.widget.Toolbar>
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_bottom_view"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/main_bottom_view"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="55dp"
         android:layout_alignParentBottom="true"
         android:background="?attr/colorPrimary"
-        app:itemTextColor="?attr/primaryThemeColor"
-        app:itemIconTint="?attr/primaryThemeColor"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/main_bottom_icon_color"
+        app:itemIconSize="20dp"
+        app:itemTextAppearanceInactive="@style/BottomItemInactiveTextAppearance"
+        app:itemTextAppearanceActive="@style/BottomItemActiveTextAppearance"
         app:menu="@menu/main"/>
+
 </RelativeLayout>

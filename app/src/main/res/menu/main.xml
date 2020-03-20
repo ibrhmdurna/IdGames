@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:icon="@drawable/ic_home_style" android:title="@string/home"/>
-    <item android:icon="@drawable/ic_library_style" android:title="@string/library"/>
+    <item
+        android:id="@+id/home_item"
+        android:icon="@drawable/ic_home_style"
+        android:title="@string/home"/>
+    <item
+        android:id="@+id/categories_item"
+        android:icon="@drawable/ic_category_style"
+        android:title="@string/categories"/>
+    <item
+        android:id="@+id/shopping_item"
+        android:icon="@drawable/ic_shopping_style"
+        android:title="@string/shopping"/>
+    <item
+        android:id="@+id/my_games_item"
+        android:icon="@drawable/ic_library_style"
+        android:title="@string/my_games"/>
 </menu>
